@@ -1,27 +1,41 @@
-
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     background-color: grey;
     display: flex;
-    
- 
-}
-img {
-    width: 300px;
-    box-sizing: border-box;
-    margin: 4px px 0px 5px;
+    /* justify-content: space-evenly; */
+    height: 100px;
+    /* box-sizing: border-box; */
+    width: 100%;
 }
 
-.div1 nav ul {
+img {
+    width: 300px;
+    /* box-sizing: border-box; */
+    /* margin: 4px 0px 0px 5px; */
+    /* justify-content: ; */
+}
+
+nav ul {
     list-style: none;
     display: flex;
     /* justify-content: space-evenly; */
     margin-left: auto;
+    /* justify-content: space-between; */
 
 }
 
 li {
-    margin: 5px 3px 5px 3px;
+    margin: 5px 50px 5px 3px;
+    padding: 0px 20px 0px 20px;
+
+    
 }
 
 a:hover {
